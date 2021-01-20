@@ -1,0 +1,147 @@
+/* dark-theme.css */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #eee;
+    background: #121212;
+}
+
+#calculator{
+    background-color: #121212;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    /* background-color: #919191; */
+}
+
+.operator, .number, .empty{
+    color: white;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: #121212;
+}
+
+.number:active, .operator:active{
+    background-color: rgb(98, 98, 98);
+}
+
+
+#result{
+    height: 120px;
+    border-bottom: 2px solid  #bbbbbb ;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+.btn-toggle{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    /* font-weight: bold; */
+    background-color: #e7e2e2 !important;
+}
+
+.btn-toggle:focus{
+    outline: 0;
+}
+
+@media (max-width: 700px) {
+    #container{
+        width: 600px;
+        height: 553px;
+        margin: 5px auto;
+    }
+
+    #calculator{
+        width: 320px;
+        height: 541px;
+        margin: 0 auto;
+        top: 5px;
+    }
+
+    #result{
+        height: 100px;
+    }
+
+    #history{
+        height: 10px;
+        padding-top: 10px;
+    
+    }
+
+    #keyboard{
+        /* height: 400px; */
+        height: 439px;
+    }
+    .operator, .number, .empty{
+        width: 47px;
+        height: 44px;
+        margin: 14px;
+        /* margin: 0 auto; */
+        margin-left: 18px;
+    }
+    
+  }
+
+  @media (max-width: 500px) {
+    #container{
+        width: 491px;
+    }
+
+    #calculator{
+        width: 300px;
+        height: 547px;
+        margin: 0 auto;
+        top: 3px;
+    }
+
+    .btn-toggle {
+        width: 44px;
+        height: 44px;
+        margin: 7px;
+    }
+
+    /* #result{
+        height: 100px;
+    } */
+
+    #history{
+        height: 21px;
+    
+    }
+    #output{
+        height: 38px;
+    }
+    #keyboard{
+        height: 444px;
+    }
+    .operator, .number, .empty{
+        width: 43px;
+        height: 47px;
+    }
+    
+  }
+
+  @media (max-width: 400px){
+      #conatiner{
+          background: black !important;
+      }
+    #calculator{
+        margin-left: 25px;
+    }
+  } 
