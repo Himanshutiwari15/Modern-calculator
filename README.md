@@ -2,6 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/066d6c18-ffb0-429d-a988-9cb2f152e074/deploy-status)](https://app.netlify.com/sites/modern-calculator/deploys)
 
+<h3 >Mobile Images</h3>
+
+<img src="https://github.com/Himanshutiwari15/Modern-calculator/blob/main/dark-mode.jfif" alt="dark=mode" width = "300px" height="400px" > 
+<img src="https://github.com/Himanshutiwari15/Modern-calculator/blob/main/light-mode.jfif" alt="dark=mode" width = "300px" height="400px" > 
+
 
 <h3>Resources</h3>
 In the above project, I used some useful websites namely :
