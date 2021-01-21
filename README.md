@@ -21,6 +21,7 @@ In the above project, I used some useful websites namely :
 <h3>Previous Works</h3>
 <h1>3/0</h1>
 Link to the first project : <i><a href="https://github.com/Himanshutiwari15/TShirtBuying_MiniProject">TShirt Buying Landing Project</a></i>
+<br><br>
 Link to the second project : <i><a href="https://github.com/Himanshutiwari15/Rock-Paper-Scissors">Rock-Paper-Scissors Project</a></i>
 
 <h3>Webiste</h3>
